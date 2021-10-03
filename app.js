@@ -20,7 +20,7 @@ app.get("/", function (req, res) {
   res.send("Bem vindo!");
 });
 
-const server = app.listen(process.env.PORT || 8080, () => {
+const server = app.listen(8080, () => {
   console.log("Servidor iniciado na porta 8080: http://localhost:8080");
 });
 let cont = 0;

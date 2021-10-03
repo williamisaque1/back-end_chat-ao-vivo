@@ -44,7 +44,7 @@ io.on("connection", (socket) => {
   });
 
   socket.on("sala_conectar", (dados) => {
-    console.log("Sala selecionada: " + dados);
+    console.log("Sala selecionada : " + dados);
     socket.join(dados);
   });
 
